@@ -1,5 +1,4 @@
-
-require_relative 'CaffeineBeverage'
+require 'CaffeineBeverage'
 
 class Coffee < CaffeineBeverage
 	def initialize

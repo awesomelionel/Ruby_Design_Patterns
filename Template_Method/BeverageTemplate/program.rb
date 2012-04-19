@@ -1,6 +1,7 @@
 
-require_relative 'Coffee'
-require_relative 'Tea'
+$LOAD_PATH << File.dirname(__FILE__)
+require 'Coffee'
+require 'Tea'
 
 tea = Tea.new
 coffee = Coffee.new

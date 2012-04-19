@@ -1,5 +1,4 @@
-
-require_relative 'CaffeineBeverage'
+require 'CaffeineBeverage'
 
 class Tea < CaffeineBeverage
 	attr_reader :title, :type
